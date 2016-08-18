@@ -15,7 +15,7 @@ Fork and clone this repository!
 
 The code in scripts/app.js has comments that list some problems with the sample project website. There are currently some bugs, but it should look like this:
 
-<img src="img/result.png" width="60%" alt="count es and link a lot site screenshot">
+![image](https://cloud.githubusercontent.com/assets/6520345/17779764/af51d1fe-651d-11e6-94fb-b61336e8413a.png)
 
 As it stands, the `console.log("Sanity Check: JS is working!");` isn't even showing up! What might be the problem there?
 
