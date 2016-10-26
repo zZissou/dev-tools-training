@@ -18,9 +18,9 @@ addSubHeader();
 
 		// should count occurrences of the letter "E"
 		// and update the display. instead always shows 0
-		for (var i = 0; i < 10; i++){
+		var count = 0;
+		for (var i = 0; i <= input.length; i++){
 			// this loop doesn't find both es in  "supercalifragilisticexpialidocious"
-			var count = 0;
 			if (input[i] === "e"){
 				count = count +1;
 			}
