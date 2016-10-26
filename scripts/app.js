@@ -10,8 +10,6 @@ $(document).ready(function(){
 
 	addSubHeader();
 
-
-
 	$('form').on('submit', function(e){
 		e.preventDefault();
 		console.log('form submitted');
@@ -29,19 +27,19 @@ $(document).ready(function(){
 
 	// all the links alert 5 :(
 	function addLinks () {
-	    var $link;
-	    var $ul = $('ul');
-	    for (var i=0; i<5; ++i) {
-	        $link = $('<a href="#" class="btn btn-link" id="'+ i +'"></a>');
-	        $link.html('Link '+i);
-	        $ul.append($link);
-	    }
+    var $link;
+    var $ul = $('ul');
+    for (var i=0; i<5; ++i) {
+        $link = $('<a href="#" class="btn btn-link" id="'+ i +'"></a>');
+        $link.html('Link '+i);
+        $ul.append($link);
     }
+  }
 
-    addLinks();
+  addLinks();
 
-		$(".btn-link").on('click', function () {
-				alert(this.id);
-		});
+	$(".btn-link").on('click', function () {
+			alert(this.id);
+	});
 
 });
