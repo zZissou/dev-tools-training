@@ -8,12 +8,11 @@ $(document).ready(function(){
 		var subHeader = $('<small>&nbsp&nbspsquash the bugs!</small>')
 		$('h1').append(subHeader);
 	}
-
-	
-
+addSubHeader();
 
 	// the form redirects when it should just update the count of "E"s
-	$('form').on('submit', function(e){
+	$('form').on('submit', function(e) {
+		e.preventDefault();
 		console.log('form submitted');
 		var input = $('input').eq(0).val();
 
@@ -45,4 +44,4 @@ $(document).ready(function(){
     }
 
     addLinks();
-};
+});
