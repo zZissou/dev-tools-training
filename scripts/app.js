@@ -9,7 +9,7 @@ $(document).ready(function(){
 		$('h1').append(subHeader);
 	}
 
-
+	addSubHeader();
 
 
 	// the form redirects when it should just update the count of "E"s
